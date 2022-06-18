@@ -8,11 +8,22 @@ public class TestScript : MonoBehaviour
     void Start()
     {
         Debug.Log("HOLAAA MUNDOOOO");
+        ChauMundo();
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void ChauMundo()
+    {
+        Debug.Log("chaaaaauuuu mundo");
+    }
+
+    void Saltar()
+    {
+	Debug.Log("El jugador esta saltando");	
     }
 }
