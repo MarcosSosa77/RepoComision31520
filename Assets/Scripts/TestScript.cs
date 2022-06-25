@@ -18,11 +18,19 @@ public class TestScript : MonoBehaviour
     void Update()
     {
         RecolectarMonedas();
+        Train();
     }
 
     void ChauMundo()
     {
         Debug.Log("chaaaaauuuu mundo");
+    }
+
+    void Train()
+    {
+        Debug.Log("estoy entrenando");
+        RecolectarMonedas();
+        Saltar();
     }
 
     void Saltar()
